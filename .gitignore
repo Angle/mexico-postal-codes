@@ -17,7 +17,7 @@ Thumbs.db
 !/var/mx-postal-codes.csv
 
 # JetBrains
-.idea/
+.idea/**
 !/.idea/.name
 
 # Composer
