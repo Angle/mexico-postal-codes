@@ -5,11 +5,12 @@ namespace Angle\Mexico\PostalCode;
 abstract class ZoneType
 {
     // Last update: Jan 2nd, 2022
-
+    const NONE = '';
     const URBAN = 'U';
     const RURAL = 'R';
 
     protected static $map = [
+        self::NONE => '',
         self::URBAN => 'Urbano',
         self::RURAL => 'Rural',
     ];
